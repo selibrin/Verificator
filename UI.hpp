@@ -4,8 +4,7 @@
 
 void UI() {
 	int instruction;
-	if (FileExist("recom.txt")) remove("recom.txt"); // если файл с рекомендованными параметрами существует, удаляем его 
-													 // не делаем этого в цикле чтобы после завершения программы можно было посмотреть файл
+	
 	while (1) {
 		Matrix  b;
 		instruction = 0;
